@@ -19,7 +19,7 @@ class Album:
         cash = []
         for item in self.track:
             cash.append(item.time)
-            print(sum(cash))
+        print(sum(cash))
 
 
 
