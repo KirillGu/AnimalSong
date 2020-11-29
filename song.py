@@ -32,7 +32,7 @@ class Track:
 
 
     def show (self):
-        self.time = int(time)
+        self.time = time
         for item in self.track:
             print(f' Песня:{item.name} , идет: {item.time}минуты')
 
